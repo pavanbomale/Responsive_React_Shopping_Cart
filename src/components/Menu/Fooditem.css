@@ -1,0 +1,50 @@
+.fooditem-card{
+    width: 260px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 15px;
+    padding: 5px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.img-container{
+    margin: 0 auto;
+    padding: 20px 0px 0px;
+}
+.item-img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+h3,
+h4,
+button{
+    margin: .3rem .5rem;
+    color: #555;
+    text-transform: capitalize;
+}
+button{
+    padding: 15px 0;
+    font-weight: 600;
+    border-radius: 10px;
+    background:#fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+/* 1024 PIXELS AND BELOW */
+
+@media (max-width:1024px) {
+    .fooditem-card{
+        width: 90vw;
+        justify-content: start;
+    }
+}
